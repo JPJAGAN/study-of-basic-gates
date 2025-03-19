@@ -1,5 +1,8 @@
 ### study-of-basic-gates
 
+# NAME.- JAGAN JP
+# REG NO.- 212224230099
+
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -88,8 +91,6 @@ xnor(yxnor,a,b);
 
 endmodule
 
-Developed by: RegisterNumber:
-JAGAN JP 212224230099
  
  **Logic symbol & Truthtable**
 
