@@ -94,7 +94,7 @@ endmodule
  
 # Truthtable:
 
-![Screenshot 2025-01-09 102327](https://github.com/user-attachments/assets/ad2ca2f7-7a96-43bf-b00e-e863af6e9ab9)
+![image](https://github.com/user-attachments/assets/fc8c4f3f-52d0-40a1-9594-ae7f830757a7)
 
 # Wave form:
 
