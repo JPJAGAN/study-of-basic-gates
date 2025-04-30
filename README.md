@@ -3,7 +3,7 @@
 # NAME.- JAGAN JP
 # REG NO.- 212224230099
 
-AIM:
+# AIM:
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
 
@@ -11,7 +11,7 @@ Equipments Required:
 
 Software – Quartus prime 
 
-Theory:
+# Theory:
 
 Introduction Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
@@ -52,7 +52,7 @@ Ex-NOR gate:
 The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.
 Y= A⊕B
 
-Procedure:
+# Procedure:
 
 1.	Type the program in Quartus software.
 
@@ -65,11 +65,11 @@ Procedure:
 5.	For different input combinations generate the timing diagram.
 
 
-PROGRAM:
+# PROGRAM:
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
-module sample(a,b,yand,yor,ynot,ynand,yxor,ynor,yxnor);
+module ex1(a,b,yand,yor,ynot,ynand,yxor,ynor,yxnor);
 
 input a,b;
 
@@ -92,16 +92,20 @@ xnor(yxnor,a,b);
 endmodule
 
  
- Logic symbol & Truthtable:
+# Truthtable:
 
- ![Screenshot 2025-01-09 102313](https://github.com/user-attachments/assets/0b453ecb-1f70-4558-89cd-fde724057ac3)
- 
- ![Screenshot 2025-01-09 102327](https://github.com/user-attachments/assets/ad2ca2f7-7a96-43bf-b00e-e863af6e9ab9)
+![Screenshot 2025-01-09 102327](https://github.com/user-attachments/assets/ad2ca2f7-7a96-43bf-b00e-e863af6e9ab9)
 
-RTL realization Output: 
-![Screenshot 2025-01-09 102345](https://github.com/user-attachments/assets/c7458eb9-c5ce-4e33-b4e4-c2166877d440)
+# Wave form:
 
-Result:
+![Screenshot 2025-04-30 093528](https://github.com/user-attachments/assets/e2d91a71-3144-4228-8c1a-238bc5ad081d)
+
+
+# RTL realization Output: 
+
+![Screenshot 2025-04-30 093557](https://github.com/user-attachments/assets/c66039c2-1eaf-4bb4-a91f-807226b9237f)
+
+# Result:
 thus the verification of  the truth table of logic gates in Quartus II using Verilog programming.
 
 
